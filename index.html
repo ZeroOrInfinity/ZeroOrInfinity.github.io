@@ -28,17 +28,16 @@
         <p>
             <h3><a href="https://gitee.com/pcore/UMS/wikis/pages">UMS</a> 功能列表(<a
                     href="https://github.com/ZeroOrInfinity/UMS/wiki">UMS</a> feature list):</h3><br/>
-            1. 验证码（图片，短信）校验功能(validate code (image, SMS) verification function)<br/>
+            1. 验证码（图片，短信, 滑块）校验功能(validate code (image, SMS, slider) verification function)<br/>
             2. 手机登录功能，登录后自动注册(Mobile login function, automatic registration after login)<br/>
-            3. 第三方登录功能(qq,weibo,weixin,gitee)，登录后自动注册，<br/>
-            　与用户账号绑定与解绑(OAuth2, binding and unbinding)<br/>
-            4. 登录路由功能 (login routing)<br/>
-            5. 统一回调地址路由功能(Unified callback address routing function)<br/>
-            6. 访问权限控制功能(Access control function)<br/>
-            7. 简化 session、remember me、crsf 等配置<br/>
-            　(Simplify session、remember me、srsf etc configuration)<br/>
-            8. 根据设置的返回方式（JSON 与 REDIRECT）返回 json 或 html 数据<br/>
-            9. 签到功能(sign)<br/>
+            3. 支持所有 JustAuth 支持的第三方授权登录，登录后自动注册或绑定(OAuth2 login and auto signUp and auto binding)<br/>
+            　 - 支持定时刷新 accessToken, 支持分布式定时任务(Support timing refresh accessToken, support distributed timing tasks)<br/>
+            　 - 支持第三方授权登录的用户信息表与 token 信息表的缓存功能(Support the caching function of user table and token table by OAuth2 login)<br/>
+            　 - 支持第三方绑定(binding)与解绑(unbinding)及查询接口(top.dcenter.ums.security.core.oauth.repository.UsersConnectionRepository)<br/>
+            4. 访问权限控制功能(Access control function)<br/>
+            5. 简化 session、remember me、csrf 等配置(Simplify session、remember me、csrf etc configuration)<br/>
+            6. 根据设置的响应方式（JSON 与 REDIRECT）返回 json 或 html 数据<br/>
+            7. 签到功能(sign)<br/>
         </p>
 
     </section>
