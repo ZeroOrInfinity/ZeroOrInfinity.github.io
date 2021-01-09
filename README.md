@@ -82,7 +82,7 @@ Support multi-tenancy, jwt , validate code(image, sms, sliderCode), RBAC, SLF4J-
 ```xml
 <dependency>
     <groupId>top.dcenter</groupId>
-    <artifactId>ums-core-spring-boot-starter</artifactId>
+    <artifactId>ums-spring-boot-starter</artifactId>
     <version>[2.2.0,)</version>
 </dependency>
 ```
@@ -96,7 +96,7 @@ Support multi-tenancy, jwt , validate code(image, sms, sliderCode), RBAC, SLF4J-
 <!-- 用户管理脚手架(ums) -->
 <dependency>
     <groupId>top.dcenter</groupId>
-    <artifactId>ums-core-spring-boot-starter</artifactId>
+    <artifactId>ums-spring-boot-starter</artifactId>
     <version>[2.2.0,)</version>
 </dependency>
 
